@@ -25,7 +25,7 @@ Each folder also contains a 'splits' folder this contains 8 files named <task>_<
 The videos for 'ChopstickUsing', 'HandDrawing' and 'SonicDrawing' can be downloaded here: . The folders for each task contain two further subdirectories 'Headmounted' and 'Stationary' which contain the video recordings of the tasks. In the original paper the 'Stationary' footage was used.
 
 The Dough Rolling task was taken from the CMU-MMAC dataset (http://kitchen.cs.cmu.edu/) Pizza task.
-The segments used from this task are detailed in 'dough_rolling_segments.csv' which contains three fields: 
+The segments used from this task are detailed in `dough_rolling_segments.csv` which contains three fields: 
 
 * Video: the filename of the headmounted recording when downloading the CMU-MMAC data
 * StartFrame: the starting frame of our segmentation
