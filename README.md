@@ -2,11 +2,6 @@
 
 Annotations and links to videos for the EPIC-Skills 2018 Dataset from the CVPR 2018 paper [Who's Better? Who's Best? Pairwise Deep Ranking for Skill Determination](https://openaccess.thecvf.com/content_cvpr_2018/html/Doughty_Whos_Better_Whos_CVPR_2018_paper.html)
 
-## Citing
-When using this dataset, kindly reference:
-
-Hazel Doughty, Dima Damen and Walterio Mayol-Cuevas (2018). Who's Better? Who's Best? Pairwise Deep Ranking for Skill Determination. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
-
 ## Annotation Folder Structure
 `annotations` is further broken down into seven subdirectories, corresponding to the seven tasks used in the paper. 
 
@@ -36,3 +31,15 @@ The Surgery task used in our paper is available from https://cirl.lcsr.jhu.edu/r
 ## Video Information
 Videos are recorded in 1080p at 59.94 FPS on a GoPro Hero 5 with linear field of
 view for the headmounted recordings and on a GoPro Hero 4 with a narrow field of view for the stationary recordings. 
+
+## Citing
+When using this dataset, kindly reference:
+
+```
+@inproceedings{Doughty_2018_CVPR,
+author = {Doughty, Hazel and Damen, Dima and Mayol-Cuevas, Walterio},
+title = {{W}ho's {B}etter? {W}ho's {B}st? {P}airwise {D}eep {R}anking for {S}kill {D}etermination},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+year = {2018}
+}
+```
